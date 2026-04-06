@@ -3,6 +3,17 @@
 @tailwind components;
 @tailwind utilities; */
 
+[dir='rtl'] .border-l {
+  border-left: 0;
+  border-right-width: 1px;
+  border-right-color: rgb(55 65 81); /* gray-700 */
+  margin-left: 0;
+  margin-right: 1rem;
+}
+[dir='rtl'] .relative .absolute {
+  left: auto;
+  right: -8.5px;
+}
 body {
   background-color: #050505;
   color: white;
